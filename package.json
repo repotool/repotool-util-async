@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/repotool/repotool-util-async-hooks.git"
+    "url": "git+https://github.com/repotool/repotool-util-async.git"
   },
   "keywords": [
     "repotool",
@@ -23,9 +23,9 @@
   "author": "Stefan Thomas <justmoon@members.fsf.org>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/repotool/repotool-util-async-hooks/issues"
+    "url": "https://github.com/repotool/repotool-util-async/issues"
   },
-  "homepage": "https://github.com/repotool/repotool-util-async-hooks#readme",
+  "homepage": "https://github.com/repotool/repotool-util-async#readme",
   "devDependencies": {
     "codecov": "^1.0.1",
     "cz-conventional-changelog": "^1.2.0",
