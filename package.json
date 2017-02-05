@@ -4,7 +4,8 @@
   "description": "Easy way for repotool plugins to accept asynchronous hooks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/repotool/repotool-util-async-hooks/issues"
   },
-  "homepage": "https://github.com/repotool/repotool-util-async-hooks#readme"
+  "homepage": "https://github.com/repotool/repotool-util-async-hooks#readme",
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "cz-conventional-changelog": "^1.2.0",
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "ghooks": "^2.0.0",
+    "validate-commit-msg": "^2.11.1"
+  }
 }
